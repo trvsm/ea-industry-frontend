@@ -6,15 +6,13 @@ import LandingPage from "./pages/LandingPage/LandingPage";
 
 function App() {
   return (
-  
-      <BrowserRouter>
-    <TopHeader />
+    <BrowserRouter>
+      <TopHeader />
       <Header />
-        <Routes>
-          <Route path="/" element={<LandingPage />} />
-        </Routes>
-      </BrowserRouter>
-
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

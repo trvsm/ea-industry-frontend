@@ -1,7 +1,12 @@
 import React from "react";
+import Features from "../../components/Features/Features";
 
 const LandingPage = () => {
-  return <div>LandingPage</div>;
+  return (
+    <>
+      <Features />
+    </>
+  );
 };
 
 export default LandingPage;
