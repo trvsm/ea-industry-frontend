@@ -1,0 +1,22 @@
+@use "../../App.scss";
+@use "../../styles/partials/colors" as *;
+@use "../../styles/partials/mixins" as mx;
+
+.banner {
+  padding: 0 5rem;
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(
+    90.62deg,
+    #a026d9 20.02%,
+    #d81e76 65.02%,
+    #d81e76 81.34%
+  );
+  color: $white;
+  align-items: center;
+
+
+  &__cta {
+    @include mx.button;
+  }
+}

@@ -1,0 +1,18 @@
+@use "./colors" as *;
+
+@mixin button {
+  text-align: center;
+  width: 13rem;
+  margin: 1rem;
+  padding: 1rem;
+  color: $white;
+  background-color: $darkblack;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  &:hover {
+    color: $white;
+  }
+  &:visited {
+    color: $white;
+  }
+}
