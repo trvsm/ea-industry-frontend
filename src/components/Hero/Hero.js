@@ -26,7 +26,7 @@ export default function Hero() {
           <Carousel.Item interval={3000}>
             <img
               className="d-block w-100"
-              src={require('../../assets/images/Upload-video-preview.jpg')}
+              src={require("../../assets/images/Upload-video-preview.jpg")}
               alt="Second slide"
             />
 
@@ -40,7 +40,7 @@ export default function Hero() {
               className="d-block w-100"
               src="holder.js/800x400?text=Third slide&bg=20232a"
               alt="Third slide"
-              />
+            />
 
             <Carousel.Caption>
               <h3>Third slide label</h3>
@@ -50,8 +50,8 @@ export default function Hero() {
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
-        </div>
-        <Banner />
-        </div>
+      </div>
+      <Banner />
+    </div>
   );
 }
