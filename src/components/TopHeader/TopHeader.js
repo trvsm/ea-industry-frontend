@@ -1,6 +1,5 @@
 import "./TopHeader.scss";
 import React from "react";
-import { Link } from "react-router-dom";
 import EALogo  from "../../assets/logo/EALogo.png"
 import { FaRegUser } from "react-icons/fa";
 import { BiQuestionMark } from "react-icons/bi"
