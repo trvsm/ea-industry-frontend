@@ -7,15 +7,15 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
-    <>
+  
       <BrowserRouter>
-        {/* <TopHeader /> */}
-        <Header />
+    <TopHeader />
+      <Header />
         <Routes>
           <Route path="/" element={<LandingPage />} />
         </Routes>
       </BrowserRouter>
-    </>
+
   );
 }
 
