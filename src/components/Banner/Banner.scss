@@ -1,4 +1,4 @@
-@use '../../App.scss';
+@use "../../App.scss";
 @use "../../styles/partials/colors" as *;
 @use "../../styles/partials/mixins" as mx;
 
@@ -6,12 +6,16 @@
   padding: 0 5rem;
   display: flex;
   justify-content: space-between;
-  background-color: $darkblack;
+  background: linear-gradient(
+    90.62deg,
+    #a026d9 20.02%,
+    #d81e76 65.02%,
+    #d81e76 81.34%
+  );
   color: $white;
   align-items: center;
 
   &__cta {
     @include mx.button;
-    border: 2px solid $white;
   }
 }

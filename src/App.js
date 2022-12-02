@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <TopHeader />
+        {/* <TopHeader /> */}
         <Header />
         <Routes>
           <Route path="/" element={<LandingPage />} />

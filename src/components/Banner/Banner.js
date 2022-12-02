@@ -5,9 +5,12 @@ export default function Banner() {
     <div className="banner">
       <p className="banner__text">
         The EA App is replacing Origin. Download now to recieve your free game,
-        on us!
+        on us and start playing now!
       </p>
-      <button className="banner__cta">START PLAYING NOW!</button>
+      <a target={'blank'}
+            href="https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/EAappInstaller.exe"
+            className="banner__cta"
+          >Download</a>
     </div>
   );
 }

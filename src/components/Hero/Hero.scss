@@ -13,6 +13,13 @@
 
   &__cta {
     border: none;
+
     @include mx.button;
+    &:hover{
+        color: $white;
+    }
+    &:visited{
+        color: $white;
+    }
   }
 }

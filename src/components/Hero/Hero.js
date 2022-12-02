@@ -7,9 +7,17 @@ export default function Hero() {
     <div className="view-height">
       <div className="hero">
         <div className="hero__left">
-          <h1 className="hero__title">The EA App</h1>
-          <p className="hero__text">we have a new app</p>
-          <button className="hero__cta">use it!</button>
+          <h1 className="hero__title">Introducing the EA App for Windows/PC</h1>
+          <p className="hero__text">
+            Download the new app before January 2023 to get a free game, our
+            gift to you!
+          </p>
+          <a target={'blank'}
+            href="https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/EAappInstaller.exe"
+            className="hero__cta"
+          >
+            Download
+          </a>
         </div>
         <Carousel>
           <Carousel.Item interval={3000}>
@@ -40,6 +48,20 @@ export default function Hero() {
               className="d-block w-100"
               src="holder.js/800x400?text=Third slide&bg=20232a"
               alt="Third slide"
+            />
+
+            <Carousel.Caption>
+              <h3>Third slide label</h3>
+              <p>
+                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+              </p>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item interval={3000}>
+            <img
+              className="d-block w-100"
+              src="holder.js/800x400?text=Third slide&bg=20232a"
+              alt="Fourth slide"
             />
 
             <Carousel.Caption>

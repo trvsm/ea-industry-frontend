@@ -1,9 +1,16 @@
-@use './colors' as *;
+@use "./colors" as *;
 
-@mixin button{
-    margin: 1rem;
-    padding: 1rem;
+@mixin button {
+  margin: 1rem;
+  padding: 1rem;
+  color: $white;
+  background-color: $darkblack;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  &:hover {
     color: $white;
-    background-color: $darkblack;
-    border-radius: 0.25rem;
+  }
+  &:visited {
+    color: $white;
+  }
 }
