@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/ea-industry-frontend/static/css/main.31d6cfe0.css",
+    "main.js": "/ea-industry-frontend/static/js/main.854f430d.js",
+    "index.html": "/ea-industry-frontend/index.html",
+    "main.854f430d.js.map": "/ea-industry-frontend/static/js/main.854f430d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.854f430d.js"
+  ]
+}
