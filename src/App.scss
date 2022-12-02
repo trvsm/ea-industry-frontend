@@ -1,11 +1,11 @@
 @use "./styles/partials/fonts" as *;
-@import '~bootstrap/scss/bootstrap';
+@import "~bootstrap/scss/bootstrap";
 
 html,
 body {
   margin: 0;
   box-sizing: border-box;
-  font-family: "Encode Sans Expanded", sans-serif;
+  font-family: "DM Sans", "Sen", "Encode Sans Expanded", sans-serif;
   font-size: 16px;
 }
 

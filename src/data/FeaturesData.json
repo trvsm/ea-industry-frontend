@@ -3,8 +3,8 @@
     "id": "one",
     "reverse": false,
     "image": "../../assets/images/audi-r8.jpeg",
-    "title": "Connect with millions of players",
-    "description": "Share your experiences and talk strategy in our community forums. All in the new EA app.",
+    "title": "Your Friends Are Here",
+    "description": "Connect with a community of millions of other players. Review games, chat in our community forums, read player written gameguides and more, all in the EA App.",
     "alt": "EA App",
     "button": false
   },
@@ -12,8 +12,8 @@
     "id": "two",
     "reverse": true,
     "image": "../../assets/images/audi-r8.jpeg",
-    "title": "All of your favourite games in one place",
-    "description": "Just download, sign in and start playing today!",
+    "title": "A Seamless Transision",
+    "description": "Don't stress about data transfer. Simply download the EA App and all your games, achievements, and friends will transfer over in the blink of an eye.",
     "alt": "Video Games",
     "button": false
   },
@@ -21,8 +21,8 @@
     "id": "three",
     "reverse": false,
     "image": "../../assets/images/audi-r8.jpeg",
-    "title": "No wifi? No problem",
-    "description": "With EA Connect, you can take your love of gaming wherever you go.",
+    "title": "No wifi? No problem.",
+    "description": "With EA Connect you can play offline, and take your love of gaming to new heights.",
     "alt": "Gaming in airplane",
     "button": false
   },
@@ -39,10 +39,8 @@
     "id": "five",
     "reverse": false,
     "image": "../../assets/images/audi-r8.jpeg",
-    "title": "Discovery at your fingertips",
-    "description": "See what your friends are playing, find EA's hotest releases, and add them to your collection with one click.",
-    "alt": "Fun with friends",
-    "button": true,
-    "buttonText": "Learn More"
+    "title": "New Hits & Old Favorites",
+    "description": "All of your favourite games, one place. Just download, sign in and start paying today!",
+    "alt": "Fun with friends"
   }
 ]

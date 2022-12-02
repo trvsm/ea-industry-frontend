@@ -24,10 +24,10 @@
   &__img {
     width: 85%;
     border-radius: 10px;
+    // box-shadow: #a026d954 0px 5px 24px;
   }
-  &__text--reverse {
-    padding-left: 3rem;
-  }
+  // &__text--reverse {
+  // }
   &__text {
     position: relative;
     padding: 0 0 0;
@@ -35,17 +35,17 @@
 
     &-title {
       margin: 0 0 1rem 0;
-      font-size: 2.7rem;
+      font-size: 1.9rem;
       font-weight: 600;
       line-height: 3rem;
       width: 85%;
     }
 
     &-description {
-      margin: 0.5rem 0 2rem 0;
-      font-size: 1.4rem;
+      // margin: 0.5rem 0 2rem 0;
+      font-size: 1.2rem;
       font-weight: 400;
-      width: 85%;
+      width: 90%;
     }
   }
 
