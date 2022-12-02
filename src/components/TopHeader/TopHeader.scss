@@ -4,6 +4,7 @@
 @use "../../styles/partials/fonts" as *;
 
 .top-header {
+  font-family: "DM Sans";
   &__menu {
     background-color: black;
     display: flex;
@@ -15,13 +16,12 @@
     gap: 2rem;
     margin: 0;
 
-    &-item-profile  {
-        height: 1.8rem;
-      
+    &-item-profile {
+      height: 1.8rem;
     }
 
     &-logo {
-        height: 2.5rem;
+      height: 2.5rem;
     }
   }
 }

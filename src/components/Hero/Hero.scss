@@ -1,12 +1,13 @@
 @use "../../styles/partials/colors" as *;
 @use "../../styles/partials/mixins" as mx;
+@use "../../styles/partials/fonts" as *;
 
 .view-height {
   width: 100%;
   height: 88vh;
-
 }
 .hero {
+  font-family: "DM Sans";
   padding: 2rem 14rem;
   padding-bottom: 5rem;
   height: 77vh;
@@ -19,17 +20,22 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
- 
   }
-  &__title{
-    padding-bottom: 4rem;
-    width: 16rem;
+  &__title {
+    font-family: "Sen";
+    padding-bottom: 1rem;
+    font-size: 4rem;
+    margin: 0;
   }
-  &__text{
-    padding-bottom: 4rem;
+  &__text {
+    padding-bottom: 2rem;
+    font-size: 1.6rem;
+    margin: 0;
   }
   &__cta {
     border: none;
+    font-size: 1.4rem;
+    font-weight: 400;
     @include mx.button;
     margin: 0;
     width: 23rem;
@@ -40,7 +46,7 @@
       color: $white;
     }
   }
-  &__carousel{
+  &__carousel {
     padding-left: 4rem;
     width: 33rem;
     height: 27rem;
