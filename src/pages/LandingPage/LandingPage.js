@@ -2,7 +2,9 @@ import React from "react";
 import Banner from "../../components/Banner/Banner";
 import CallToAction from "../../components/CallToAction/CallToAction";
 import Features from "../../components/Features/Features";
+// import Footer from '../../components/Footer/Footer';
 import Hero from "../../components/Hero/Hero";
+import NetworkFooter from "../../components/NetworkFooter/NetworkFooter";
 
 const LandingPage = () => {
   return (
@@ -18,6 +20,8 @@ const LandingPage = () => {
         }}
       />
       <CallToAction />
+      <NetworkFooter/>
+      {/* <Footer/> */}
     </div>
   );
 };
