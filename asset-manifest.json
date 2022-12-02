@@ -1,35 +1,42 @@
 {
   "files": {
-    "main.css": "/ea-industry-frontend/static/css/main.c96b2088.css",
-    "main.js": "/ea-industry-frontend/static/js/main.6d59aea4.js",
+    "main.css": "/ea-industry-frontend/static/css/main.c44c982d.css",
+    "main.js": "/ea-industry-frontend/static/js/main.395c1d39.js",
     "static/media/circle.svg": "/ea-industry-frontend/static/media/circle.8a69e4d4e5e79292e9c829b0e86155f9.svg",
+    "static/media/ea-convention.png": "/ea-industry-frontend/static/media/ea-convention.aedf12f255b4ef018c8a.png",
     "static/media/red.svg": "/ea-industry-frontend/static/media/red.6138930d9990d44e278cfde13f44d1e9.svg",
-    "static/media/audi-r8.jpeg": "/ea-industry-frontend/static/media/audi-r8.047efdb57837a88328ca.jpeg",
+    "static/media/airplane.png": "/ea-industry-frontend/static/media/airplane.00ec8afc4f4de6990a51.png",
+    "static/media/speed.png": "/ea-industry-frontend/static/media/speed.eb5feb512e454775d48d.png",
+    "static/media/catalogue.png": "/ea-industry-frontend/static/media/catalogue.1ee5ade5e7493c9fe854.png",
     "static/media/blue.svg": "/ea-industry-frontend/static/media/blue.2cf7daf3cc65db63518d8a9f5a75d17d.svg",
     "static/media/green.svg": "/ea-industry-frontend/static/media/green.14219e9b06f3942758d8e240ecea57d6.svg",
-    "static/media/EA.svg": "/ea-industry-frontend/static/media/EA.3249e4500191802a15fe9cde62ee680c.svg",
+    "static/media/app-dashboard.png": "/ea-industry-frontend/static/media/app-dashboard.61a068cb3a35006b7ff7.png",
+    "static/media/EA.svg": "/ea-industry-frontend/static/media/EA.52382e7087b6130c072177f016d74002.svg",
     "static/media/space.png": "/ea-industry-frontend/static/media/space.5fbc48ab631727990fbb.png",
     "static/media/fifa.png": "/ea-industry-frontend/static/media/fifa.092625548140761bb86d.png",
     "static/media/sims.png": "/ea-industry-frontend/static/media/sims.826c717079ed508a95f4.png",
     "static/media/avenir-next-regular.ttf": "/ea-industry-frontend/static/media/avenir-next-regular.3f6c730b0f59f3838d71.ttf",
     "static/media/avenir-next-bold.ttf": "/ea-industry-frontend/static/media/avenir-next-bold.3c6bf152ce9d23ec3657.ttf",
     "static/media/avenir-next-demi.ttf": "/ea-industry-frontend/static/media/avenir-next-demi.fb429fb77c296de90537.ttf",
+    "static/media/DMSans-Regular.ttf": "/ea-industry-frontend/static/media/DMSans-Regular.4ee96395e07a04577aab.ttf",
+    "static/media/DMSans-Medium.ttf": "/ea-industry-frontend/static/media/DMSans-Medium.150680530af9dd9fd00b.ttf",
     "static/media/Electronic-arts.png": "/ea-industry-frontend/static/media/Electronic-arts.b5d00160719372aa9c23.png",
-    "static/media/EALogo.png": "/ea-industry-frontend/static/media/EALogo.c30a8be7a1743184d53d.png",
+    "static/media/Sen-Bold.ttf": "/ea-industry-frontend/static/media/Sen-Bold.da94f104562e9265468d.ttf",
+    "static/media/Canada-Flag.svg": "/ea-industry-frontend/static/media/Canada-Flag.4e3dd8e89aeb39f8bfdf3503ab0c6892.svg",
     "static/media/Instagram.svg": "/ea-industry-frontend/static/media/Instagram.c59c85022cf56b437dc6245f838437f7.svg",
     "static/media/Twitter.svg": "/ea-industry-frontend/static/media/Twitter.e2824e2a9e6a5e4d1bbb7a2abf71a20e.svg",
+    "index.html": "/ea-industry-frontend/index.html",
     "static/media/Profile.svg": "/ea-industry-frontend/static/media/Profile.fb317f7eecdda081d26cae586c057904.svg",
     "static/media/Ellipses.svg": "/ea-industry-frontend/static/media/Ellipses.f5663f393ee01d6542d5e2221085de7d.svg",
     "static/media/Youtube.svg": "/ea-industry-frontend/static/media/Youtube.829cf5fb58aaab19969d5080183991b1.svg",
     "static/media/Question.svg": "/ea-industry-frontend/static/media/Question.347c676730e99da3d08bb64310799304.svg",
-    "index.html": "/ea-industry-frontend/index.html",
     "static/media/Twitch.svg": "/ea-industry-frontend/static/media/Twitch.e58f1aeeeb6553ef2adef647a3eee5bb.svg",
     "static/media/Facebook.svg": "/ea-industry-frontend/static/media/Facebook.37345aa1f491e1b5d45a3c9a9d917a86.svg",
-    "main.c96b2088.css.map": "/ea-industry-frontend/static/css/main.c96b2088.css.map",
-    "main.6d59aea4.js.map": "/ea-industry-frontend/static/js/main.6d59aea4.js.map"
+    "main.c44c982d.css.map": "/ea-industry-frontend/static/css/main.c44c982d.css.map",
+    "main.395c1d39.js.map": "/ea-industry-frontend/static/js/main.395c1d39.js.map"
   },
   "entrypoints": [
-    "static/css/main.c96b2088.css",
-    "static/js/main.6d59aea4.js"
+    "static/css/main.c44c982d.css",
+    "static/js/main.395c1d39.js"
   ]
 }
