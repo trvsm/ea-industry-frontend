@@ -1,6 +1,9 @@
 import "./Hero.scss";
 import Banner from "../Banner/Banner";
 import Carousel from "react-bootstrap/Carousel";
+import space from '../../assets/images/space.png';
+import fifa from '../../assets/images/fifa.png'
+import sims from '../../assets/images/sims.png'
 
 export default function Hero() {
   return (
@@ -20,13 +23,15 @@ export default function Hero() {
             Download
           </a>
         </div>
+        <div className="hero__carousel">
+
         <Carousel>
           <Carousel.Item interval={3000}>
             <img
               className="d-block w-100"
               src="holder.js/800x400?text=First slide&bg=373940"
               alt="First slide"
-            />
+              />
             <Carousel.Caption>
               <h3>First slide label</h3>
               <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
@@ -37,7 +42,7 @@ export default function Hero() {
               className="d-block w-100"
               src={require("../../assets/images/Upload-video-preview.jpg")}
               alt="Second slide"
-            />
+              />
 
             <Carousel.Caption>
               <h3>Second slide label</h3>
@@ -49,21 +54,7 @@ export default function Hero() {
               className="d-block w-100"
               src="holder.js/800x400?text=Third slide&bg=20232a"
               alt="Third slide"
-            />
-
-            <Carousel.Caption>
-              <h3>Third slide label</h3>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item interval={3000}>
-            <img
-              className="d-block w-100"
-              src="holder.js/800x400?text=Third slide&bg=20232a"
-              alt="Fourth slide"
-            />
+              />
 
             <Carousel.Caption>
               <h3>Third slide label</h3>
@@ -73,11 +64,12 @@ export default function Hero() {
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
+              </div>
       </div>
       <Banner
         content={{
-          text: "The EA App is replacing Origin. Download now to recieve your free game, on us and start playing now!",
-          button: "Download",
+          text: "The EA App is replacing Origin. Learn More about the transition from other players who made the switch",
+          button: "Community Hub",
           target:
             "https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/EAappInstaller.exe",
         }}
