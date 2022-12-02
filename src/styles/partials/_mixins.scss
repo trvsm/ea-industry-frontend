@@ -1,6 +1,8 @@
 @use "./colors" as *;
 
 @mixin button {
+  text-align: center;
+  width: 13rem;
   margin: 1rem;
   padding: 1rem;
   color: $white;
@@ -14,4 +16,3 @@
     color: $white;
   }
 }
-
