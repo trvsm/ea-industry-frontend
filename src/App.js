@@ -1,9 +1,17 @@
-import './App.scss';
+import "./App.scss";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Header from "./components/Header/Header";
+import LandingPage from "./pages/LandingPage/LandingPage";
 
 function App() {
   return (
     <>
-    <h1>Hello EA</h1>
+      <Header />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
