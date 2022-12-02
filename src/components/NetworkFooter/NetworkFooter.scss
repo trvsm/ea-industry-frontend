@@ -22,6 +22,10 @@
       color: $darkblack;
     }
   }
+  &__form-label {
+    width: 11rem;
+    display: inline-block;
+  }
   &__left {
     width: 40.5rem;
   }
@@ -33,6 +37,9 @@
   }
   &__form {
     padding-top: 1rem;
+    padding-left: 2rem;
+    display: flex;
+    align-items: flex-start;
   }
   &__title {
     font-size: 1rem;

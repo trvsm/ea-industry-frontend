@@ -48,7 +48,7 @@ export default function Hero() {
       </div>
       <Banner
         content={{
-          text: "The EA App is replacing Origin. Learn More about the transition from other players who made the switch",
+          text: "The EA App is replacing Origin. Learn More about the transition from other players who made the switch.",
           button: "Community Hub",
           target:
             "https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/EAappInstaller.exe",
