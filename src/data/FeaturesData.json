@@ -21,7 +21,7 @@
     "id": "three",
     "reverse": false,
     "image": "../../assets/images/audi-r8.jpeg",
-    "title": "No wifi? No problem.",
+    "title": "No Wi-Fi? No problem.",
     "description": "With EA Connect you can play offline, and take your love of gaming to new heights.",
     "alt": "Gaming in airplane",
     "button": false
@@ -31,7 +31,7 @@
     "reverse": true,
     "image": "../../assets/images/audi-r8.jpeg",
     "title": "Designed for speed",
-    "description": "The fast, optimized platform makes it easier than ever to discover, download and play. Jump back into your game with fewer clicks.",
+    "description": "The fast, optimized platform makes it easier than ever to discover, download and play. So jumping into your game takes less time and fewer clicks",
     "alt": "Motorcycle Racing Game",
     "button": false
   },
