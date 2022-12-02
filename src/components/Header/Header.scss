@@ -1,0 +1,29 @@
+@use "../../styles/partials/breakpoints" as *;
+@use "../../styles/partials/colors" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/fonts" as *;
+
+.header {
+
+    &__navbar {
+        height: 3.5625rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    &__list {
+        padding-left: 1rem;
+        margin: 0;
+    }
+    
+    &__image {
+        width: 10rem;
+    }
+    
+    &__text {
+        text-decoration: none;
+        padding-right: 1rem;
+        color: black;
+  }
+}

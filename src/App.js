@@ -1,16 +1,18 @@
 import "./App.scss";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import TopHeader from "./components/TopHeader/TopHeader";
 import Header from "./components/Header/Header";
 import LandingPage from "./pages/LandingPage/LandingPage";
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
+      <TopHeader />
       <Header />
       <Routes>
         <Route path="/" element={<LandingPage />} />
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 }
 
