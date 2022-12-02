@@ -49,7 +49,9 @@ export default function NetworkFooter() {
         </div>
         <div className="footer__signup">
           <form className="footer__form" action="submit">
-            Sign up for new game release updates
+            <p className="footer__form-label">
+              Sign up for new game release updates
+              </p>
             <input className="footer__input" placeholder="Email" type="text" />
           </form>
         </div>
