@@ -1,11 +1,13 @@
 @use "../../App.scss";
 @use "../../styles/partials/colors" as *;
 @use "../../styles/partials/mixins" as mx;
+@use "../../styles/partials/fonts" as *;
 
 .banner {
+  font-family: "DM Sans";
   padding: 0 14rem;
-margin-bottom: 4
-rem;
+  font-size: 1.4rem;
+  margin-bottom: 4 rem;
   display: flex;
   justify-content: space-between;
   background: linear-gradient(
@@ -17,6 +19,9 @@ rem;
   color: $white;
   align-items: center;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  &__text {
+    width: 70%;
+  }
   &__cta {
     @include mx.button;
   }
