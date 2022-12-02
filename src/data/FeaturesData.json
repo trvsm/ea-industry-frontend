@@ -2,7 +2,7 @@
   {
     "id": "one",
     "reverse": false,
-    "image": "../../public/images/audi-r8.jpeg",
+    "image": "../../assets/images/audi-r8.jpeg",
     "title": "Connect with millions of players",
     "description": "Share your experiences and talk strategy in our community forums. All in the new EA app.",
     "alt": "EA App",
@@ -11,7 +11,7 @@
   {
     "id": "two",
     "reverse": true,
-    "image": "http://localhost:3000/images/audi-r8.jpeg",
+    "image": "../../assets/images/audi-r8.jpeg",
     "title": "All of your favourite games in one place",
     "description": "Just download, sign in and start playing today!",
     "alt": "Video Games",
@@ -20,7 +20,7 @@
   {
     "id": "three",
     "reverse": false,
-    "image": "http://localhost:3000/images/audi-r8.jpeg",
+    "image": "../../assets/images/audi-r8.jpeg",
     "title": "No wifi? No problem",
     "description": "With EA Connect, you can take your love of gaming wherever you go.",
     "alt": "Gaming in airplane",
@@ -29,7 +29,7 @@
   {
     "id": "four",
     "reverse": true,
-    "image": "http://localhost:3000/images/audi-r8.jpeg",
+    "image": "../../assets/images/audi-r8.jpeg",
     "title": "Designed for speed",
     "description": "The fast, optimized platform makes it easier than ever to discover, download and play. Jump back into your game with fewer clicks.",
     "alt": "Motorcycle Racing Game",
@@ -38,7 +38,7 @@
   {
     "id": "five",
     "reverse": false,
-    "image": "http://localhost:3000/images/audi-r8.jpeg",
+    "image": "../../assets/images/audi-r8.jpeg",
     "title": "Discovery at your fingertips",
     "description": "See what your friends are playing, find EA's hotest releases, and add them to your collection with one click.",
     "alt": "Fun with friends",
