@@ -2,6 +2,7 @@ import React from "react";
 import Banner from "../../components/Banner/Banner";
 import CallToAction from "../../components/CallToAction/CallToAction";
 import Features from "../../components/Features/Features";
+import Footer from "../../components/Footer/Footer";
 import Hero from "../../components/Hero/Hero";
 
 const LandingPage = () => {
@@ -17,6 +18,7 @@ const LandingPage = () => {
         }}
       />
       <CallToAction />
+      <Footer />
     </div>
   );
 };
