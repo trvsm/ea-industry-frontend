@@ -51,19 +51,19 @@ export default function NetworkFooter() {
       <div className="footer__social">
         <h3 className="footer__title">Join the Conversation</h3>
         <div className="footer__social-link">
-          <a target={'blank'} href="" className="footer__icon">
-            <img src="../../assets/icons/Facebook.svg" alt="facebook" className="footer__social-media" />
+          <a target={'blank'} href="http://facebook.com/EA" className="footer__icon">
+            <img src={window.location.origin + '/images/Facebook.svg'} alt="facebook" className="footer__social-media" />
           </a>
-          <a target={'blank'} href="" className="footer__icon">
-            <img src="" alt="twitter" className="footer__social-media" />
+          <a target={'blank'} href="http://twitter.com/ea" className="footer__icon">
+            <img src="/images/Twitter.svg" alt="twitter" className="footer__social-media" />
           </a>
-          <a target={'blank'} href="" className="footer__icon">
+          <a target={'blank'} href="http://youtube.com/EAvideos" className="footer__icon">
             <img src="" alt="youtube" className="footer__social-media" />
           </a>
-          <a target={'blank'} href="" className="footer__icon">
+          <a target={'blank'} href="http://instagram.com/ea" className="footer__icon">
             <img src="" alt="insta" className="footer__social-media" />
           </a>
-          <a target={'blank'} href="" className="footer__icon">
+          <a target={'blank'} href="http://twitch.tv/ea" className="footer__icon">
             <img src="" alt="twitch" className="footer__social-media" />
           </a>
         </div>
