@@ -1,0 +1,9 @@
+@use './colors' as *;
+
+@mixin button{
+    margin: 1rem;
+    padding: 1rem;
+    color: $white;
+    background-color: $darkblack;
+    border-radius: 0.25rem;
+}

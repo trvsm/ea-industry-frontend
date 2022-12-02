@@ -6,8 +6,8 @@ const Header = () => {
     <header className="header">
       <nav className="header__nav">
         <div className="header__logo">LOGO</div>
-        <ul className="header__ul">
-          <Link to="#" className="header__link">
+        {/* <ul className="header__ul"> */}
+          {/* <Link to="#" className="header__link">
             Link One
           </Link>
           <Link to="#" className="header__link">
@@ -22,7 +22,7 @@ const Header = () => {
           <Link to="#" className="header__link">
             Link five
           </Link>
-        </ul>
+        </ul> */}
       </nav>
     </header>
   );
