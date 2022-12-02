@@ -4,6 +4,8 @@
 @use "../../styles/partials/fonts" as *;
 
 .header {
+    background-color: white;
+    padding: 0 0.5rem;
 
     &__navbar {
         height: 3.5625rem;
@@ -18,7 +20,8 @@
     }
     
     &__image {
-        width: 10rem;
+        margin-right: 1rem;
+        width: 9.5rem;
     }
     
     &__text {
