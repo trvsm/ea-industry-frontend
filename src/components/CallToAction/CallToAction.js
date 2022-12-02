@@ -5,10 +5,13 @@ import green from "../../assets/images/green.svg";
 import red from "../../assets/images/red.svg";
 
 export default function CallToAction() {
-  return (
+  return (<>
     <div className="cta">
       <span className="cta__copy">
-        What are you waiting for? Try out our new and improved app now!
+        <div>
+          What are you waiting for?
+          </div>
+          Try out our new and improved app now!
       </span>
       <a
         href="https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/EAappInstaller.exe"
@@ -17,12 +20,13 @@ export default function CallToAction() {
       >
         Download the EA App
       </a>
-      <div className="cta__images">
-        <img src={blue} alt="" />
-        <img src={green} alt="" />
-        <img src={red} alt="" />
-        <img src={circle} alt="" />
-      </div>
     </div>
+      <div className="cta__images">
+        <img src={blue} className='cta__blue' alt="blue" />
+        <img src={green} className='cta__green' alt="green" />
+        <img src={red} className='cta__red' alt="red" />
+        <img src={circle} className='cta__circle' alt="circle" />
+      </div>
+  </>
   );
 }
