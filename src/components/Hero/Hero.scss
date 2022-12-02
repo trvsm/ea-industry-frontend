@@ -4,31 +4,33 @@
 .view-height {
   width: 100%;
   height: 88vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+
 }
 .hero {
   padding: 2rem 14rem;
+  height: 77vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   &__left {
     width: 22.625rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+ 
   }
   &__title{
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
   }
   &__text{
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
   }
   &__cta {
     border: none;
     @include mx.button;
     margin: 0;
+    width: 23rem;
     &:hover {
       color: $white;
     }
@@ -37,6 +39,7 @@
     }
   }
   &__carousel{
+    padding-left: 4rem;
     width: 35vw;
     height: 50vh;
   }
