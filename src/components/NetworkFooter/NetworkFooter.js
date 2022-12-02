@@ -42,10 +42,10 @@ export default function NetworkFooter() {
           </a>
         </div>
         <div className="footer__signup">
-          <form className="footer__form" action="submit">
+          {/* <form className="footer__form" action="submit">
             Sign up for new game release updates
             <input className="footer__input" placeholder="Email" type="text" />
-          </form>
+          </form> */}
         </div>
       </div>
       <div className="footer__social">
