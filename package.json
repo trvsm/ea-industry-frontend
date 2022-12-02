@@ -1,6 +1,7 @@
 {
   "name": "travis-martin-ea-frontend",
   "version": "0.1.0",
+  "homepage": "http://trvsm.github.io/ea-industry-frontend",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -42,6 +43,5 @@
   },
   "devDependencies": {
     "gh-pages": "^4.0.0"
-  },
-  "homepage": "http://trvsm.github.io/ea-industry-frontend"
+  }
 }
