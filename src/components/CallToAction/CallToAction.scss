@@ -15,4 +15,9 @@
         @include mx.button;
         width: 23.31rem;
     }
+    &__images{
+        display: flex;
+        z-index: -1;
+        margin-bottom: -20rem;
+    }
 }
