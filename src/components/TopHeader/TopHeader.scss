@@ -15,16 +15,13 @@
     gap: 2rem;
     margin: 0;
 
-    &-item, &-item-question {
-      color: white;
-    }
-
-    &-item-question {
-        font-size: 1.3rem;
+    &-item-profile  {
+        height: 1.8rem;
+      
     }
 
     &-logo {
-        height: 1.2rem;
+        height: 2.5rem;
     }
   }
 }

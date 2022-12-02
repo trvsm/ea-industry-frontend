@@ -1,16 +1,14 @@
 import "./Header.scss";
 import { Link } from "react-router-dom";
 import Image from "../../assets/images/Electronic-arts.png"
-import { BsThreeDotsVertical} from "react-icons/bs";
+import Ellipses from "../../assets/icons/Ellipses.svg"
 import { AiOutlineDown } from "react-icons/ai";
 
 const Header = () => {
   return (
     <header className="header">
       <nav className="header__navbar">
-        <div className="header__icon">
-          <BsThreeDotsVertical />
-        </div>
+        <img className="header__icon" src={Ellipses} alt="Ellipses icon"></img>
 
         <img
           className="header__image"
@@ -25,7 +23,7 @@ const Header = () => {
           <Link to="#" className="header__text">
             More Experiences <AiOutlineDown />
           </Link>
-          
+
           <Link to="#" className="header__text">
             About <AiOutlineDown />
           </Link>
@@ -33,7 +31,7 @@ const Header = () => {
           <Link to="#" className="header__text">
             Commitments <AiOutlineDown />
           </Link>
-          
+
           <Link to="#" className="header__text">
             Resources <AiOutlineDown />
           </Link>
