@@ -1,6 +1,6 @@
-
-@import '~bootstrap/scss/bootstrap';
 @use "./styles/partials/fonts" as *;
+@import '~bootstrap/scss/bootstrap';
+
 html,
 body {
   margin: 0;
