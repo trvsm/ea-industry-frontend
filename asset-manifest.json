@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/ea-industry-frontend/static/css/main.31d6cfe0.css",
-    "main.js": "/ea-industry-frontend/static/js/main.854f430d.js",
+    "main.css": "/ea-industry-frontend/static/css/main.3fe3e441.css",
+    "main.js": "/ea-industry-frontend/static/js/main.f49bf71f.js",
+    "static/media/Upload-video-preview.jpg": "/ea-industry-frontend/static/media/Upload-video-preview.313a407cf90c0668da07.jpg",
     "index.html": "/ea-industry-frontend/index.html",
-    "main.854f430d.js.map": "/ea-industry-frontend/static/js/main.854f430d.js.map"
+    "main.3fe3e441.css.map": "/ea-industry-frontend/static/css/main.3fe3e441.css.map",
+    "main.f49bf71f.js.map": "/ea-industry-frontend/static/js/main.f49bf71f.js.map"
   },
   "entrypoints": [
-    "static/css/main.31d6cfe0.css",
-    "static/js/main.854f430d.js"
+    "static/css/main.3fe3e441.css",
+    "static/js/main.f49bf71f.js"
   ]
 }
