@@ -1,0 +1,41 @@
+@use "../../styles/partials/breakpoints" as *;
+@use "../../styles/partials/colors" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/fonts" as *;
+
+.header {
+  font-family: "DM Sans";
+  background-color: white;
+  padding: 0 1rem;
+
+  &__navbar {
+    height: 4rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  &__icon {
+    height: 1.7rem;
+  }
+
+  &__image {
+    min-width: 14rem;
+    margin-right: 1rem;
+    margin-left: 2rem;
+    width: 9.5rem;
+    max-height: 32px;
+  }
+
+  &__list {
+    padding-left: 3rem;
+    margin: 0;
+  }
+
+  &__text {
+    font-size: 1.1rem;
+    text-decoration: none;
+    padding-right: 1rem;
+    color: rgb(75, 73, 73);
+  }
+}

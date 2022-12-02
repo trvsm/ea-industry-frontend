@@ -1,3 +1,13 @@
+# BrainStation Industry Partner Hackathon
+Team:
+Andrea Ru: UX Design
+Ian Del Carpio: Web Dev
+Ian Ditchburn: UX Design
+Jacqueline Nacarate: Web Dev
+Maria Kim: UX Design
+Niamh Fahey: UX Design
+Travis Martin: Web Dev
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

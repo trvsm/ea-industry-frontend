@@ -1,0 +1,46 @@
+[
+  {
+    "id": "one",
+    "reverse": false,
+    "image": "../../assets/images/audi-r8.jpeg",
+    "title": "Your Friends Are Here",
+    "description": "Connect with a community of millions of other players. Review games, chat in our community forums, read player written gameguides and more, all in the EA App.",
+    "alt": "EA App",
+    "button": false
+  },
+  {
+    "id": "two",
+    "reverse": true,
+    "image": "../../assets/images/audi-r8.jpeg",
+    "title": "A Seamless Transision",
+    "description": "Don't stress about data transfer. Simply download the EA App and all your games, achievements, and friends will transfer over in the blink of an eye.",
+    "alt": "Video Games",
+    "button": false
+  },
+  {
+    "id": "three",
+    "reverse": false,
+    "image": "../../assets/images/audi-r8.jpeg",
+    "title": "No Wi-Fi? No problem.",
+    "description": "With EA Connect you can play offline, and take your love of gaming to new heights.",
+    "alt": "Gaming in airplane",
+    "button": false
+  },
+  {
+    "id": "four",
+    "reverse": true,
+    "image": "../../assets/images/audi-r8.jpeg",
+    "title": "Designed for speed",
+    "description": "The fast, optimized platform makes it easier than ever to discover, download and play. So jumping into your game takes less time and fewer clicks",
+    "alt": "Motorcycle Racing Game",
+    "button": false
+  },
+  {
+    "id": "five",
+    "reverse": false,
+    "image": "../../assets/images/audi-r8.jpeg",
+    "title": "New Hits & Old Favorites",
+    "description": "All of your favourite games, one place. Just download, sign in and start paying today!",
+    "alt": "Fun with friends"
+  }
+]

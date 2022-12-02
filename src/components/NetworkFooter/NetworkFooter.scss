@@ -1,0 +1,51 @@
+@use "../../styles/partials/colors" as *;
+@use "../../styles/partials/mixins" as mx;
+@use "../../styles/partials/fonts" as *;
+
+.footer {
+  font-family: "DM Sans";
+  background-color: rgb(234, 234, 234);
+  display: flex;
+  flex-direction: row;
+  padding: 2rem 9rem;
+  justify-content: space-between;
+  width: 100vw;
+  font-size: 1rem;
+  a {
+    text-decoration: none;
+    color: $darkblack;
+    margin: 0 1rem 0 0;
+    &:visited {
+      color: $darkblack;
+    }
+    &:hover {
+      color: $darkblack;
+    }
+  }
+  &__form-label {
+    width: 11rem;
+    display: inline-block;
+  }
+  &__left {
+    width: 40.5rem;
+  }
+  &__social {
+    width: 13rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  &__form {
+    padding-top: 1rem;
+    padding-left: 2rem;
+    display: flex;
+    align-items: flex-start;
+  }
+  &__title {
+    font-size: 1rem;
+  }
+  &__links {
+    display: flex;
+    justify-content: space-between;
+  }
+}
