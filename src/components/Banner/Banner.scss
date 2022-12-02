@@ -3,7 +3,8 @@
 @use "../../styles/partials/mixins" as mx;
 
 .banner {
-  padding: 0 5rem;
+  padding: 0 14rem;
+  
   display: flex;
   justify-content: space-between;
   background: linear-gradient(
