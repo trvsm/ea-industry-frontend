@@ -12,7 +12,8 @@ export default function Hero() {
             Download the new app before January 2023 to get a free game, our
             gift to you!
           </p>
-          <a target={'blank'}
+          <a
+            target={"blank"}
             href="https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/EAappInstaller.exe"
             className="hero__cta"
           >
@@ -73,7 +74,14 @@ export default function Hero() {
           </Carousel.Item>
         </Carousel>
       </div>
-      <Banner />
+      <Banner
+        content={{
+          text: "The EA App is replacing Origin. Download now to recieve your free game, on us and start playing now!",
+          button: "Download",
+          target:
+            "https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/EAappInstaller.exe",
+        }}
+      />
     </div>
   );
 }

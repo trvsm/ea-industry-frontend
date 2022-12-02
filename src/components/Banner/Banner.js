@@ -1,16 +1,13 @@
 import "./Banner.scss";
 
-export default function Banner() {
+export default function Banner({content}) {
   return (
     <div className="banner">
-      <p className="banner__text">
-        The EA App is replacing Origin. Download now to recieve your free game,
-        on us and start playing now!
-      </p>
+      <span className="banner__text">{content.text}</span>
       <a target={'blank'}
-            href="https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/EAappInstaller.exe"
+            href={content.target}
             className="banner__cta"
-          >Download</a>
+          >{content.button}</a>
     </div>
   );
 }
