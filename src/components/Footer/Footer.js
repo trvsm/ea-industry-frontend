@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { AiOutlineDown } from "react-icons/ai";
 import Flag from "../../assets/icons/Canada-Flag.svg";
-import Ea from "../../assets/images/EA.svg"
+import Ea from "../../assets/images/EA.svg";
 import "./Footer.scss";
 
 const Footer = () => {
@@ -9,11 +9,11 @@ const Footer = () => {
     <footer className="ffooterr">
       <div className="ffooterr__wrap">
         <div className="ffooterr__logo-div">
-          <img className="ffooterr__logo"
-          src={Ea}
-          alt="EA rounded logo in pink">
-
-          </img>
+          <img
+            className="ffooterr__logo"
+            src={Ea}
+            alt="EA rounded logo in pink"
+          ></img>
         </div>
 
         <div className="ffooterr__content">
@@ -32,11 +32,14 @@ const Footer = () => {
               <div className="ffooterr__box">
                 <div className="ffooterr__box-text">Language</div>
                 <div className="ffooterr__box-drop">
-                  <img
-                    src={Flag}
-                    alt="Country Flag"
-                    className="ffooterr__drop-flag"
-                  />
+                  <div className="ffooterr__box-drop-flag-div">
+                    <img
+                      src={Flag}
+                      alt="Country Flag"
+                      className="ffooterr__drop-flag"
+                    />
+                  </div>
+
                   <div className="ffooterr__drop-text">Canada</div>
                   <div className="ffooterr__drop-arrow">
                     <AiOutlineDown />
@@ -61,7 +64,9 @@ const Footer = () => {
 
             <div className="ffooterr__links-sec">
               <Link className="ffooterr__link-sec">Security</Link>
-              <Link className="ffooterr__link-sec">YouTube Terms of Service</Link>
+              <Link className="ffooterr__link-sec">
+                YouTube Terms of Service
+              </Link>
               <Link className="ffooterr__link-sec">Google Privacy Policy</Link>
             </div>
 
